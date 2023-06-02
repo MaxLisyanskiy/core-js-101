@@ -206,6 +206,7 @@ function getRectangleString(width, height) {
   let result = '';
   let step = height;
 
+  /* eslint-disable no-plusplus */
   while (step) {
     if (step === height) {
       let rectangles = '';
